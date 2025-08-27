@@ -9,7 +9,7 @@ const moods = {
  };
 
 export default function MoodSelector() {
-  const [currentMood, setCurrentMood] = useState("neutral");
+  const [currentMood, setCurrentMood] = useState(moods.neutral);
   return (
     <div>
         <h1>Mood Selector</h1>

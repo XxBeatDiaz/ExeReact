@@ -8,3 +8,5 @@ export default function MoodBtn({label, mood, onClick}: Props) {
     <button onClick={() => {onClick(mood)}}>{label}</button>
   )
 }
+
+
