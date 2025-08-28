@@ -1,0 +1,13 @@
+.moodBtn {
+    border: none;
+    border-radius: 14px;
+    font-size: large;
+    margin: 1%;
+    padding: 1%;
+    cursor: pointer;
+    background-color: cornsilk;
+}
+
+.moodBtn:hover {
+    background-color: rgba(192, 187, 166, 0.774);
+}
